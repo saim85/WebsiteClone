@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Caveat&family=DM+Sans:ital,wght@0,500;1,500&family=Indie+Flower&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.navbar{
+    background: #fff;
+    /* box-shadow: 0px 0px 2px grey; */
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3.5rem;
+    z-index: 999;
+    opacity: 1;
+}
+.navbar .navbar-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navbar-list .nav-item{
+    margin-right:1.5rem ;
+}
+.navbar-list .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    font-size: 1.5rem;
+    transition: all 0.23s ease-in-out;
+}
+.navbar-list .nav-link:hover{
+    color: #eb6617;
+}
+.navbar-list .login{
+border: 1px solid #eb6617;
+padding:0.8rem 1rem;
+border-radius: 4px;
+}
+.navbar .menu-icon{display: none;}
+.navbar .menu-icon i{font-size: 2.5rem;}
