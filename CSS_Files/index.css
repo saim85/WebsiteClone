@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden;
+}
 .header{
     width: 100%;
     min-height: 100vh;
@@ -136,7 +139,7 @@
 
 .main{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background:#efefef;
 }
 .main .main-container{
@@ -214,7 +217,54 @@
 .main .first-cards-con .card:hover .icon{
     transform: translateX(7px);
     transition: all 0.3s ease-in-out;
-    color: #eb6617;
+    color: #eb6617 !important;
+}
+.main .second-sec{
+    width: 100%;
+    /* min-height: 50vh; */
+    background: #fff;
+    padding: 1rem;
+}
+.main .second-main-con{
+    max-width: 1140px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 1rem;
+}
+.main .second-main-con .second-con-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.second-con-cards .card{
+    flex-basis: 22rem;
+    /* border: 1px solid yellow; */
+    padding: 1rem;
+    text-align: center;
+}
+.second-con-cards .card p{
+    margin-bottom: 8px;
+}
+.second-con-cards .card .sec-para{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.second-con-cards .card .sec-text{
+    margin-bottom: 5rem !important;
+}
+
+.second-con-cards .card .text{
+    margin-bottom: 5.5rem;
+}
+.second-con-cards .card a{
+    font-size: 1.3rem;
+}
+.second-con-cards .card .anchor{
+    margin-bottom: 1.5rem;
 }
 
 
@@ -240,5 +290,11 @@
     }
     .first-con-content .left-first{
         margin-bottom: 2rem;
+    }
+    .main .second-main-con .second-con-cards{
+        justify-content: center;
+    }
+    .second-con-cards .card{
+        margin-bottom: 1.6rem;
     }
 }

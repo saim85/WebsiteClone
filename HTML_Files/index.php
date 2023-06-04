@@ -159,6 +159,53 @@
                 </div>
             </div>
         </div>
+
+        <section class="second-sec">
+            <div class="second-main-con">
+                <div class="second-con-cards">
+                    <div class="card">
+                        <div class="text">
+
+                            <p>NEW AT COPYSHOP.CO.UK!</p>
+                            <img src="../images/a.png" alt="img">
+                        </div>
+                        <div class="anchor">
+                            <a href="#">How to use wetransfer></a>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <div class="text sec-text">
+
+                            <p class="sec-para">Empowering the world to design!
+Create your own design
+on the on-line Canva platform</p>
+    
+                        </div>
+                        <div class="anchor">
+                            <a href="#">How to use wetransfer></a>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <div class="text" style="margin-bottom:3.5rem;">
+                            <img src="../images/stars.png" alt="">
+                            <img src="../images/stars.png" alt="">
+                            <img src="../images/stars.png" alt="">
+                            <img src="../images/stars.png" alt="">
+                            <img src="../images/stars.png" alt="">
+
+                            <p class="sec-para">Customer satisfaction
+is our company's most important tenet</p>
+                        </div>
+                        <div class="anchor">
+                            <a href="#">How to use wetransfer></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
